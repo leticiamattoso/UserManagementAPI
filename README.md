@@ -13,7 +13,6 @@ O projeto é organizado em camadas, seguindo o padrão de arquitetura limpa:
 Camada de Apresentação -> Responsável pela interface do usuário, onde os dados são exibidos e coletados.
 Camada de Aplicação -> Contém a lógica de negócios e as regras de interação com a API e o banco de dados.
 Camada de Domínio -> Define as entidades e as regras de negócio fundamentais do sistema.
-Camada de Infraestrutura -> Gerencia a comunicação com a API Random User e a persistência de dados no PostgreSQL.
 
 Tecnologias Utilizadas:
 Linguagem: C#
