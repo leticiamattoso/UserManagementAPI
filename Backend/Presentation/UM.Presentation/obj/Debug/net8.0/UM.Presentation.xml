@@ -6,10 +6,17 @@
     <members>
         <member name="M:UM.Presentation.Controllers.UserController.GetAll(System.String)">
             <summary>
-            Get all Customers
+            Get all Users
             </summary>
             <param name="term">Enter registration number</param>
-            <returns>If there is a Customer, return the Customer, if not, return empty list</returns>
+            <returns>If there is a User, return the User, if not, return empty list</returns>
+        </member>
+        <member name="M:UM.Presentation.Controllers.UserController.Create(UM.Presentation.ViewModels.AddUsersViewModel)">
+            <summary>
+            Registration creation
+            </summary>
+            <param name="viewModel">Object representing an User</param>
+            <returns></returns>
         </member>
     </members>
 </doc>

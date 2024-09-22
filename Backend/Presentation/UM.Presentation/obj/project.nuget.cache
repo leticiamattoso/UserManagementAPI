@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rAM7sIsgDzc=",
+  "dgSpecHash": "QcrXTpLaI7E=",
   "success": true,
-  "projectFilePath": "C:\\Repositories\\UserManagementAPI\\Backend\\Presentation\\UM.Presentation\\UM.Presentation.csproj",
+  "projectFilePath": "c:\\Repositories\\UserManagementAPI\\Backend\\Presentation\\UM.Presentation\\UM.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\letic\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\letic\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
@@ -33,6 +33,7 @@
     "C:\\Users\\letic\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\letic\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\letic\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\letic\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\letic\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
     "C:\\Users\\letic\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.4\\npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
     "C:\\Users\\letic\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

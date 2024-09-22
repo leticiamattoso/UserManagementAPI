@@ -3,6 +3,7 @@ using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using UM.Domain.EntityFramework;
+using UM.Domain.Repositories.Users;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,12 +30,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("UM"));
 });
 
-// builder.Services.AddScoped<IInvoicesRepository, InvoicesRepository>();
-// builder.Services.AddScoped<ICustomersRepository, CustomersRepository>();
-// builder.Services.AddScoped<IPerformancesRepository, PerformancesRepository>();
-// builder.Services.AddScoped<IPlaysRepository, PlaysRepository>();
-// builder.Services.AddScoped<IRabbitMQServices, RabbitMQServices>();
-// builder.Services.AddScoped<IInvoicesStatementsServices, InvoicesStatementsServices>();
+builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 
 builder.Services.AddMvc()
                 .AddJsonOptions(options => options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
