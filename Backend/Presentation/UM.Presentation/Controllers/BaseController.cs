@@ -7,6 +7,5 @@ namespace UM.Presentation.Controllers
     {
         private IMediator? _mediator;
         protected IMediator? Mediator => _mediator ??= (IMediator?)HttpContext.RequestServices.GetService(typeof(IMediator));
-
     }
 }

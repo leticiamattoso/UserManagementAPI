@@ -15,6 +15,7 @@ namespace UM.Application.Users.Queries.GetAllUsers
             var responses = users.Where(c => string.IsNullOrWhiteSpace(request.Term) ||
                                           c.Id.ToString().Trim().Contains(request.Term, StringComparison.CurrentCultureIgnoreCase)).Select(res => new GetAllUsersResponse
                                           {
+                                              Id = res.Id,
                                               FirstName = res.FirstName,
                                               LastName = res.LastName,
                                               Gender = res.Gender,

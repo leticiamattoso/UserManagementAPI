@@ -18,7 +18,7 @@ namespace UM.Domain.Entities
         [Required]
         public int Number { get; set; }
         [Required]
-        [StringLength(5)]
+        [StringLength(60)]
         public string PostCode { get; set; } = string.Empty;
         [Required]
         public decimal Latitude { get; set; }

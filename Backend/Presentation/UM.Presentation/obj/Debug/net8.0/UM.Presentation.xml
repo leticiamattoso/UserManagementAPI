@@ -11,11 +11,16 @@
             <param name="term">Enter registration number</param>
             <returns>If there is a User, return the User, if not, return empty list</returns>
         </member>
-        <member name="M:UM.Presentation.Controllers.UserController.Create(UM.Presentation.ViewModels.AddUsersViewModel)">
+        <member name="M:UM.Presentation.Controllers.UserController.Create">
             <summary>
             Registration creation
             </summary>
-            <param name="viewModel">Object representing an User</param>
+            <returns></returns>
+        </member>
+        <member name="M:UM.Presentation.Controllers.UserController.Update(UM.Presentation.ViewModels.UpdateUsersViewModel)">
+            <summary>
+            Registration update
+            </summary>
             <returns></returns>
         </member>
     </members>

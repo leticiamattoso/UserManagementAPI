@@ -33,7 +33,10 @@ namespace UM.Domain.Repositories.Users
 
         public async Task<IEnumerable<User>> GetAllAsync()
         {
-            var users = await _context.Users.ToListAsync();
+            var users = await _context.Users.Include(u => u.Address)
+                                            .Include(a => a.Address.City)
+                                            .Include(s => s.Address.City.State)
+                                            .Include(c => c.Address.City.State.Country).ToListAsync();
             return users;
         }
 
