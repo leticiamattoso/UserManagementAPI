@@ -1,6 +1,5 @@
 using MediatR;
 using UM.Application.Users.Commands.UpdateUsers.Request;
-using UM.Domain.Entities;
 using UM.Domain.Repositories.Users;
 
 namespace UM.Application.Users.Commands.UpdateUsers

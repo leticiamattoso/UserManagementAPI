@@ -1,0 +1,43 @@
+# Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Rr]eleases/
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.jfm~
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Docker
+*.dockerignore
+
+# User Secrets
+secrets.json
+
+# Output of build tasks
+*.d.ts
+*.js.map
+*.pdb
+
+# Publish folder
+publish/
